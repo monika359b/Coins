@@ -2,8 +2,7 @@
 	"version": 2,
 	"builds" : [{
 		"src": "*js",
-		"use": "@vercel/node",
-                "engines": { "node": "16.x" }
+		"use": "@vercel/node"
 	}],
 	"routes": [
 		{
